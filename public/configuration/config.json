@@ -1,0 +1,83 @@
+{
+  "categories": {
+    "laptops": {
+      "title": "Laptops",
+      "icon": "💻",
+      "fields": [
+        {
+          "label": "Operating System",
+          "key": "os",
+          "type": "select",
+          "options": ["Windows", "macOS", "Linux"],
+          "color": "#0078D4",
+          "display": true
+        },
+        {
+          "label": "RAM Size",
+          "key": "ram",
+          "type": "text",
+          "placeholder": "Enter RAM size (e.g. 16GB)",
+          "color": "#00A86B",
+          "display": true
+        },
+        {
+          "label": "Touchscreen",
+          "key": "touchscreen",
+          "type": "checkbox",
+          "color": "#FFA500",
+          "display": true
+        }
+      ]
+    },
+    "mobiles": {
+      "title": "Mobile Phones",
+      "icon": "📱",
+      "fields": [
+        {
+          "label": "Brand",
+          "key": "brand",
+          "type": "select",
+          "options": ["Apple", "Samsung", "OnePlus", "Google"],
+          "color": "#A020F0",
+          "display": true
+        },
+        {
+          "label": "Storage",
+          "key": "storage",
+          "type": "text",
+          "placeholder": "e.g. 128GB",
+          "color": "#008080",
+          "display": true
+        },
+        {
+          "label": "5G Support",
+          "key": "5g",
+          "type": "checkbox",
+          "color": "#AECEB",
+          "display": true
+        }
+      ]
+    },
+    "accessories": {
+      "title": "Accessories",
+      "icon": "🎧",
+      "fields": [
+        {
+          "label": "Type",
+          "key": "type",
+          "type": "select",
+          "options": ["Mouse", "Keyboard", "Headphones", "Charger"],
+          "color": "#4169E1",
+          "display": true
+        },
+        {
+          "label": "Wireless",
+          "key": "wireless",
+          "type": "checkbox",
+          "color": "#FF8C00",
+          "display": true
+        }
+      ]
+    }
+  }
+}
